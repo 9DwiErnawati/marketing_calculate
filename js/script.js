@@ -70,10 +70,7 @@ function calculate() {
   const result2 = calculateMetrics(cb2, lead2, cpl2, spent2, landas2);
   const result3 = calculateMetrics(cb3, lead3, cpl3, spent3, landas3);
   const result4 = calculateMetrics(cb4, lead4, cpl4, spent4, landas4);
-<<<<<<< HEAD
   const result5 = calculateMetrics(cb5, lead5, cpl5, spent5, landas5);
-=======
->>>>>>> 216d473e123c62bc1209b3eff8f3ef30e9c53cd9
 
   // Menampilkan hasil
   document.getElementById('result').innerHTML = `
@@ -82,10 +79,7 @@ function calculate() {
       <p>* Fujinka 02 (wa) : lead ${result2.lead}, cpl ${result2.cpl}, real lead ${result2.realLead}%, t.h ${result2.transisiHasil}%,  CPRL ${result2.cprl}</p>
       <p>* Fujinka 03 (wa) : lead ${result3.lead}, cpl ${result3.cpl}, real lead ${result3.realLead}%, t.h ${result3.transisiHasil}%, CPRL ${result3.cprl}</p>
       <p>* Fujinka 04 (wa) : lead ${result4.lead}, cpl ${result4.cpl}, real lead ${result4.realLead}%, t.h ${result4.transisiHasil}%, CPRL ${result4.cprl}</p>
-<<<<<<< HEAD
       <p>* Fujinka 05 (wa) : lead ${result5.lead}, cpl ${result5.cpl}, real lead ${result5.realLead}%, t.h ${result5.transisiHasil}%, CPRL ${result5.cprl}</p>
       `;
-=======
   `;
->>>>>>> 216d473e123c62bc1209b3eff8f3ef30e9c53cd9
 }
