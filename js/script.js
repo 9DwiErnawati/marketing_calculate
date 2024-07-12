@@ -77,6 +77,5 @@ function calculate() {
       <p>* Fujinka 03 (wa) : lead ${result3.lead}, cpl ${result3.cpl}, real lead ${result3.realLead}%, t.h ${result3.transisiHasil}%, CPRL ${result3.cprl}</p>
       <p>* Fujinka 04 (wa) : lead ${result4.lead}, cpl ${result4.cpl}, real lead ${result4.realLead}%, t.h ${result4.transisiHasil}%, CPRL ${result4.cprl}</p>
       <p>* Fujinka 05 (wa) : lead ${result5.lead}, cpl ${result5.cpl}, real lead ${result5.realLead}%, t.h ${result5.transisiHasil}%, CPRL ${result5.cprl}</p>
-      `;
   `;
 }
