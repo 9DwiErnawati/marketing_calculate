@@ -24,15 +24,12 @@ function calculate() {
   const spent4 = parseFloat(document.getElementById('spent4').value);
   const landas4 = parseFloat(document.getElementById('landas4').value);
 
-<<<<<<< HEAD
   const cb5 = parseFloat(document.getElementById('cb5').value);
   const lead5 = parseFloat(document.getElementById('lead5').value);
   const cpl5 = parseFloat(document.getElementById('cpl5').value);
   const spent5 = parseFloat(document.getElementById('spent5').value);
   const landas5 = parseFloat(document.getElementById('landas5').value);
 
-=======
->>>>>>> 216d473e123c62bc1209b3eff8f3ef30e9c53cd9
   // Fungsi untuk menghitung metrik
   function calculateMetrics(cb, lead, cpl, spent, landas) {
     let realLead = '-';
