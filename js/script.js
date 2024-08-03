@@ -30,6 +30,18 @@ function calculate() {
   const spent5 = parseFloat(document.getElementById('spent5').value);
   const landas5 = parseFloat(document.getElementById('landas5').value);
 
+  const cb6 = parseFloat(document.getElementById('cb6').value);
+  const lead6 = parseFloat(document.getElementById('lead6').value);
+  const cpl6 = parseFloat(document.getElementById('cpl6').value);
+  const spent6 = parseFloat(document.getElementById('spent6').value);
+  const landas6 = parseFloat(document.getElementById('landas6').value);
+
+  const cb7 = parseFloat(document.getElementById('cb7').value);
+  const lead7 = parseFloat(document.getElementById('lead7').value);
+  const cpl7 = parseFloat(document.getElementById('cpl7').value);
+  const spent7 = parseFloat(document.getElementById('spent7').value);
+  const landas7 = parseFloat(document.getElementById('landas7').value);
+
   // Fungsi untuk menghitung metrik
   function calculateMetrics(cb, lead, cpl, spent, landas) {
     let realLead = '-';
@@ -68,14 +80,20 @@ function calculate() {
   const result3 = calculateMetrics(cb3, lead3, cpl3, spent3, landas3);
   const result4 = calculateMetrics(cb4, lead4, cpl4, spent4, landas4);
   const result5 = calculateMetrics(cb5, lead5, cpl5, spent5, landas5);
+  const result6 = calculateMetrics(cb6, lead6, cpl6, spent6, landas6);
+  const result7 = calculateMetrics(cb7, lead7, cpl7, spent7, landas7);
 
   // Menampilkan hasil
   document.getElementById('result').innerHTML = `
-      <p>Kondisi iklan FB WA</p>
+      <p><b>Kondisi iklan FB WA</b></p>
+      <p><b>Fujinka</b></p>
       <p>* Fujinka 01 (wa) : lead ${result1.lead}, cpl ${result1.cpl}, real lead ${result1.realLead}%, t.h ${result1.transisiHasil}%, CPRL ${result1.cprl}</p>
       <p>* Fujinka 02 (wa) : lead ${result2.lead}, cpl ${result2.cpl}, real lead ${result2.realLead}%, t.h ${result2.transisiHasil}%,  CPRL ${result2.cprl}</p>
       <p>* Fujinka 03 (wa) : lead ${result3.lead}, cpl ${result3.cpl}, real lead ${result3.realLead}%, t.h ${result3.transisiHasil}%, CPRL ${result3.cprl}</p>
       <p>* Fujinka 04 (wa) : lead ${result4.lead}, cpl ${result4.cpl}, real lead ${result4.realLead}%, t.h ${result4.transisiHasil}%, CPRL ${result4.cprl}</p>
       <p>* Fujinka 05 (wa) : lead ${result5.lead}, cpl ${result5.cpl}, real lead ${result5.realLead}%, t.h ${result5.transisiHasil}%, CPRL ${result5.cprl}</p>
+      <p><b>Lovelo</b></p>
+      <p>* Lovelo 01 (wa) : lead ${result6.lead}, cpl ${result6.cpl}, real lead ${result6.realLead}%, t.h ${result6.transisiHasil}%, CPRL ${result6.cprl}</p>
+      <p>* Lovelo 02 (wa) : lead ${result7.lead}, cpl ${result7.cpl}, real lead ${result7.realLead}%, t.h ${result7.transisiHasil}%,  CPRL ${result7.cprl}</p
   `;
 }
